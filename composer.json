@@ -1,0 +1,28 @@
+{
+  "name": "bblibs/bb_locaweb_email",
+  "description": "Gerenciamento de E-mail pela API da Locaweb",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Carlos Mateus Carvalho",
+      "email": "carvalho.ti.adm@gmail.com",
+      "homepage": "https://carvalhosjs.github.io/",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "BBLocawebEmail\\": "source/"
+    },
+    "files": [
+      "source/Support/Config.php"
+    ]
+  },
+  "require": {
+    "php": "^7.1",
+    "bblibs/bb_curl" : "dev-main"
+  }
+}
